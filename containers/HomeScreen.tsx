@@ -30,6 +30,10 @@ export default function HomeScreen({ navigation }) {
         title="My Movie Details"
       />
       <Button
+        onPress={() => navigation.navigate('Rohanlayout')}
+        title="Rohanlayout"
+      />
+      <Button
         onPress={() => navigation.navigate('Image Gallery')}
         title="Image Gallery"
       />
